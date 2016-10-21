@@ -1,0 +1,19 @@
+{
+  "name": "rachel-bugreport-stryker-for-loop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stryker": "node_modules/stryker/bin/stryker -c stryker.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "stryker": "^0.4.4",
+    "stryker-api": "^0.2.1",
+    "stryker-mocha-runner": "^0.1.1"
+  }
+}
